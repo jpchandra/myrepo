@@ -20,7 +20,7 @@ public class UpdateUserAction extends ActionSupport {
 	
 	@Override
 	public void validate(){
-		System.out.println("In Validate");
+		System.out.println("In Validate method");
 		if(isEmpty(getName())){
 			addActionError("Name can't be empty");
 		}
